@@ -26,6 +26,7 @@ a{
     color:#EEEEEE ;
 }
 
+
 /*------------------------- Main index*/
 main{
     font-family: Arial, Helvetica, sans-serif;
@@ -220,7 +221,55 @@ nav ul{
     color: #EEEEEE;
 }
 
+/***** MENU *********/
 
+.menu{
+    display: flex;
+    padding: 2rem;
+    margin: 1rem;
+    max-width: 100%;
+    
+}
+
+.imagen-menu{
+    width: 50rem;
+    border-radius: 2px;
+}
+
+.menu-izquierda{
+    margin: 1rem;
+}
+
+.menu-derecha{
+    margin: 1rem;
+}
+
+
+/**** NOSOTROS *****/
+.nosotros{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.nosotros-titulos{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: #d33636;
+}
+.titulo-nosotros{
+    font-size: 4rem;
+    color: #212529;
+}
+.nosotros-titulos>h3{
+    color: #d33636;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+.imagen-nosotros{
+    width: 30%;
+    align-items: flex-start;
+}
 /***** Footer ******/
 
 .footer-contenido{
@@ -243,10 +292,6 @@ nav ul{
     }
     
 
-    .header-derecho{
-
-        align-items: flex-start;
-    }
 
     .hero-img{
 
@@ -259,8 +304,12 @@ nav ul{
         flex-direction: column;
         padding-inline: 2rem;
         padding-top: 3rem;
+        max-width: 100%;
     }
 
+    .hero-text h2{
+        font-size: 4rem;
+    }
     .cartas{
         flex-direction: column;
     }
