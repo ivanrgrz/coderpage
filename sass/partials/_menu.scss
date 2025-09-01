@@ -1,0 +1,21 @@
+@use "variables" as*;
+
+.menu{
+    display: flex;
+    padding: 2rem;
+    margin: 1rem;
+    max-width: 100%;
+    .menu-izquierda{
+    margin: 1rem;
+    .menu-derecha{
+    margin: 1rem;
+}
+}
+.imagen-menu{
+    width: 50rem;
+    border-radius: 2px;
+}
+
+
+
+}

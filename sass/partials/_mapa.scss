@@ -1,0 +1,15 @@
+@use "variables" as*;
+
+.mapa{
+    display: flex;
+    justify-content: space-between;
+    background-color: $rojo;
+    padding: 2rem;
+    margin: 2rem;
+    text-align: center;
+    .mapa-titulo{
+    font-family: $fontSecundaria;
+    font-size: 2rem;
+    color: $blanco;
+}
+}

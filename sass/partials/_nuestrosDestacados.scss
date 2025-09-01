@@ -1,0 +1,40 @@
+@use "variables" as*;
+
+
+.nuestros-destacados{
+    display: flex;
+    justify-content: center;
+    color: $vino;
+    .cartas{
+    display: flex;
+    padding-top: 2rem;
+}
+.carta{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    img{
+    max-width: 100%;
+    }
+    h4{
+    font-family: $fontSecundaria;
+    font-weight: 300;
+    font-size: 1.6rem;
+    }
+    p{
+    font-family: $fontSecundaria;
+    width: 75%;
+    text-align: center;
+    }
+    a{
+    font-family:$fontPrincipal
+    font-size: 1.4rem;
+    background-color: $rojo;
+    padding: .75rem 6rem;
+    color:$blanco;
+    text-decoration: none;
+    }
+}
+}

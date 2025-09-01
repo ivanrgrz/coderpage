@@ -1,0 +1,18 @@
+@use "variables" as*;
+
+.nosotros{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.nosotros-titulos{
+    font-family: $fontSecundaria;
+    text-align: center;
+    color: $rojo;
+    h2{
+    font-size: 4rem;
+    color: #212529;
+    }
+}

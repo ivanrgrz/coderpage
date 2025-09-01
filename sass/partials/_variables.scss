@@ -1,0 +1,16 @@
+// variables 
+
+$vino:#8E1616;
+$rojo:#D84040;
+$blanco:#EEEEEE;
+$fontPrincipal: Arial, Helvetica, sans-serif;
+$fontSecundaria: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+@mixin flex{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
