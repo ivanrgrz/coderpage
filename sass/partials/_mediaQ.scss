@@ -5,21 +5,16 @@
     
 
         .hero-main{
+
         flex-direction: column;
         padding-inline: 2rem;
         padding-top: 3rem;
         max-width: 100%;
-        .hero-img{
-        max-width: 100%;
-        
-
-    }
-        
         .hero-text h2{
         font-size: 4rem;
     }
     }
-    }
+    
     
 
     .cartas{
@@ -40,4 +35,5 @@
     .menu{
         flex-direction: column;
     }
+}
 

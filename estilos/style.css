@@ -215,32 +215,25 @@ body main h3 {
     padding-top: 3rem;
     max-width: 100%;
   }
-  .hero-main .hero-img {
-    max-width: 100%;
-  }
   .hero-main .hero-text h2 {
     font-size: 4rem;
   }
-}
-.cartas {
-  flex-direction: column;
-}
-
-.grid {
-  display: flex;
-  flex-direction: column;
-}
-
-.grid-item {
-  flex: 1;
-}
-
-.mapa {
-  flex-direction: column;
-}
-
-.menu {
-  flex-direction: column;
+  .cartas {
+    flex-direction: column;
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-item {
+    flex: 1;
+  }
+  .mapa {
+    flex-direction: column;
+  }
+  .menu {
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
