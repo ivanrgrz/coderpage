@@ -2,20 +2,19 @@
 
 @media screen and (max-width: 480px) {
 
-    .hero-header {
-        flex-direction: column;
-        gap: 2rem;
-        .hero-img{
+    
 
-        max-width: 100%;
-
-    }
         .hero-main{
-
         flex-direction: column;
         padding-inline: 2rem;
         padding-top: 3rem;
         max-width: 100%;
+        .hero-img{
+        max-width: 100%;
+        
+
+    }
+        
         .hero-text h2{
         font-size: 4rem;
     }
@@ -41,4 +40,4 @@
     .menu{
         flex-direction: column;
     }
-}
+

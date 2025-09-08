@@ -209,38 +209,38 @@ body main h3 {
 }
 
 @media screen and (max-width: 480px) {
-  .hero-header {
-    flex-direction: column;
-    gap: 2rem;
-  }
-  .hero-header .hero-img {
-    max-width: 100%;
-  }
-  .hero-header .hero-main {
+  .hero-main {
     flex-direction: column;
     padding-inline: 2rem;
     padding-top: 3rem;
     max-width: 100%;
   }
-  .hero-header .hero-main .hero-text h2 {
+  .hero-main .hero-img {
+    max-width: 100%;
+  }
+  .hero-main .hero-text h2 {
     font-size: 4rem;
   }
-  .cartas {
-    flex-direction: column;
-  }
-  .grid {
-    display: flex;
-    flex-direction: column;
-  }
-  .grid-item {
-    flex: 1;
-  }
-  .mapa {
-    flex-direction: column;
-  }
-  .menu {
-    flex-direction: column;
-  }
+}
+.cartas {
+  flex-direction: column;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-item {
+  flex: 1;
+}
+
+.mapa {
+  flex-direction: column;
+}
+
+.menu {
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */
