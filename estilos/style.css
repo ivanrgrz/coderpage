@@ -140,14 +140,17 @@ body main h3 {
   grid-area: item1;
   background-image: url(../medios/grid1.jpg);
   height: 400px;
+  text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.48);
 }
 .grid .grid-item2 {
   grid-area: item2;
   background-image: url(../medios/grid2.jpg);
+  text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.48);
 }
 .grid .grid-item3 {
   grid-area: item3;
   background-image: url(../medios/grid3.jpg);
+  text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.48);
 }
 
 .nosotros {
@@ -173,6 +176,7 @@ body main h3 {
   background-color: #D84040;
   padding: 2rem;
   margin: 2rem;
+  gap: 1rem;
   text-align: center;
 }
 .mapa .mapa-titulo {
@@ -198,10 +202,10 @@ body main h3 {
   max-width: 100%;
 }
 .menu .menu-izquierda {
-  margin: 1rem;
+  margin: 0.5rem;
 }
-.menu .menu-izquierda .menu-derecha {
-  margin: 1rem;
+.menu .menu-derecha {
+  margin: 0.5rem;
 }
 .menu .imagen-menu {
   width: 50rem;
@@ -223,6 +227,7 @@ body main h3 {
   }
   .grid {
     display: flex;
+    padding: 1.5rem;
     flex-direction: column;
   }
   .grid-item {

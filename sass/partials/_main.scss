@@ -148,15 +148,18 @@ h5{
     grid-area: item1;
     background-image: url(../medios/grid1.jpg);
     height: 400px;
+    text-shadow: 5px 5px 0px rgba(0,0,0,0.48);
 }
 .grid-item2{
     grid-area: item2;
     background-image: url(../medios/grid2.jpg);
+    text-shadow: 5px 5px 0px rgba(0,0,0,0.48);
 
 }
 .grid-item3{
     grid-area: item3;
     background-image: url(../medios/grid3.jpg);
+    text-shadow: 5px 5px 0px rgba(0,0,0,0.48);
 }
 
 
