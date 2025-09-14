@@ -1,5 +1,11 @@
 @use "variables" as*;
 
+.tituloMenu{
+    font-family: $fontSecundaria;
+    text-align: center;
+    color: $rojo;
+    }
+
 .menu{
     display: flex;
     padding: 2rem;

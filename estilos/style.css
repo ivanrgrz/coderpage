@@ -159,6 +159,9 @@ body main h3 {
   flex-direction: column;
   padding: 1.5rem;
 }
+.nosotros .imagenNosotros {
+  width: 30rem;
+}
 
 .nosotros-titulos {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -193,6 +196,12 @@ body main h3 {
   display: flex;
   justify-content: center;
   color: #EEEEEE;
+}
+
+.tituloMenu {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  color: #D84040;
 }
 
 .menu {
@@ -235,6 +244,14 @@ body main h3 {
   }
   .mapa {
     flex-direction: column;
+  }
+  .menu {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 978px) {
+  .grid {
+    padding: 2rem;
   }
   .menu {
     flex-direction: column;

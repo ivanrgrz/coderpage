@@ -38,3 +38,12 @@
     }
 }
 
+@media screen and (min-width: 481px) and (max-width: 978px) {
+    
+    .grid{
+        padding: 2rem;
+    }
+    .menu{
+        flex-direction: column;
+    }
+}
